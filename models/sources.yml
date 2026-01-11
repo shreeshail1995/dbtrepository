@@ -3,7 +3,8 @@ version: 2
 sources:
   - name: jaffle_shop
     database: RAW
-    schema: JAFFILE_SHOP
+    schema: JAFFILE_SHOP,STRIP
     tables:
       - name: customers
       - name: orders
+      - name: payment
