@@ -7,4 +7,12 @@ sources:
     tables:
       - name: customers
       - name: orders
+
+  - name: STRIP
+    database: RAW
+    schema: STRIP
+    tables:
+      - name: PAYMENT
+      - name: T_TICKET_TRACK  
+          
       
